@@ -1,1 +1,1 @@
-# Lab-3
+The step I took to complete this assignment is first a created a git repo and added a yaml file which will used as template by the pipeline and I commit my file to my repo. I added two parameters one was passed bucket name and second changed the disabled to suspended. As soon as committed the changes on git by pipeline got deployed.
