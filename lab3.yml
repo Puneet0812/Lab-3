@@ -4,6 +4,7 @@ Description: CloudFormation template to create an S3 bucket with configurable na
 Parameters:
   BucketName:
     Type: String
+    Default: "s3-8910233"
     Description: The name of the S3 bucket
 
   VersioningEnabled:
@@ -12,7 +13,7 @@ Parameters:
     AllowedValues:
       - 'Enabled'
       - 'Suspended'
-    Description: Enable or disable versioning for the S3 bucket.
+    Description: Enable or Suspended  versioning for the S3 bucket.
 
 Resources:
   S3Bucket:
